@@ -1,0 +1,100 @@
+const menuConfig =  {
+   [
+{
+    "menuTitle":"Navigation One",
+    "subMenu":[
+		    {
+		        "link":"/menu1",
+		        "label":"menu1",
+		        "subMenu":[
+		            {
+		               "link":"/menu1/page1",
+		               "label":"menu1===第一个页面"
+		            },
+		            {
+		               "link":"/menu1/page2",
+		               "label":"menu1===第二个页面"
+		            }
+		        ]
+		    },
+		    {
+		        "link":"/menu2",
+		        "label":"menu2",
+		        "subMenu":[
+		            {
+		               "link":"/menu2/page1",
+		               "label":"menu2===第一个页面"
+		            },
+		            {
+		               "link":"/menu2/page2",
+		               "label":"menu2===第二个页面"
+		            }
+		        ]
+		    }
+    ]
+},
+    {
+        "menuTitle":"Navigation Two",
+        "subMenu":[
+            {
+		        "link":"/menu3",
+		        "label":"menu3",
+		        "subMenu":[
+		            {
+		               "link":"/menu3/page1",
+		               "label":"menu3===第一个页面"
+		            },
+		            {
+		               "link":"/menu3/page2",
+		               "label":"menu3===第二个页面"
+		            }
+		        ]
+		    },
+		    {
+		        "link":"/menu4",
+		        "label":"menu4===页面"
+		    },
+		    {
+		        "link":"/menu5",
+		        "label":"menu5===页面"
+		    }
+        ]
+    },
+     {
+        "menuTitle":"Navigation three",
+        "subMenu":[
+            {
+		        "link":"/menu6",
+		        "label":"menu6"
+		    },
+		    {
+		        "link":"/menu7",
+		        "label":"menu7===页面"
+		    },
+		    {
+		        "link":"/menu8",
+		        "label":"menu8===页面"
+		    }
+        ]
+    },
+     {
+        "menuTitle":"Navigation four",
+        "subMenu":[
+            {
+		        "link":"/menu9",
+		        "label":"menu9"
+		    },
+		    {
+		        "link":"/menu10",
+		        "label":"menu10===页面"
+		    },
+		    {
+		        "link":"/menu11",
+		        "label":"menu11===页面"
+		    }
+        ]
+    }
+
+]}
+
+export default menuConfig;
