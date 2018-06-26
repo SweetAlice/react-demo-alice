@@ -1,43 +1,51 @@
 [
 {
-    "label":"Navigation One",
+    "label":"UI展示",
     "linkurl":"Nav1",
     "type":"mail",
     "subMenu":[
 		    {
 		        "routerurl":"/menu1",
-		        "label":"menu1",
-		        "linkurl":"g1",
-		        "subMenu":[
-		            {
-		               "routerurlurl":"/menu1/page1",
-		               "linkurl":"g1sub1",
-		               "label":"menu1===第一个页面"
-		            },
-		            {
-		               "routerurl":"/menu1/page2",
-		               "linkurl":"g1sub2",
-		               "label":"menu1===第二个页面"
-		            }
-		        ]
-		    }
-		    ,
-		    {
+		        "label":"tables",
+		        "linkurl":"g1"
+		    },{
 		        "routerurl":"/menu2",
-		        "label":"menu2",
-		        "linkurl":"g2",
-		        "subMenu":[
-		            {
-		               "routerurl":"/menu2/page1",
-		               "linkurl":"g2sub1",
-		               "label":"menu2===第一个页面"
-		            },
-		            {
-		               "routerurl":"/menu2/page2",
-		               "linkurl":"g2sub2",
-		               "label":"menu2===第二个页面"
-		            }
-		        ]
+		        "label":"产品列表",
+		        "linkurl":"g2"
+		        
+		    },{
+		        "routerurl":"/menu12",
+		        "label":"ace实例",
+		        "linkurl":"g12"
+		        
+		    },{
+		        "routerurl":"/menu13",
+		        "label":"charts实例",
+		        "linkurl":"g13"
+		        
+		    },{
+		        "routerurl":"/menu14",
+		        "label":"input实例",
+		        "linkurl":"g14"
+		        
+		    },{
+		        "routerurl":"/menu15",
+		        "label":"modal实例",
+		        "linkurl":"g15"
+		        
+		    },{
+		        "routerurl":"/menu16",
+		        "label":"message实例",
+		        "linkurl":"g16"
+		    },{
+		        "routerurl":"/menu17",
+		        "label":"map实例",
+		        "linkurl":"g17"
+		        
+		    },{
+		        "routerurl":"/menu18",
+		        "label":"富文本编辑edit",
+		        "linkurl":"g18"
 		    }
     ]
 },
@@ -49,29 +57,17 @@
             {
 		        "routerurl":"/menu3",
 		        "label":"menu3",
-		         "linkurl":"g3",
-		        "subMenu":[
-		            {
-		               "routerurl":"/menu3/page1",
-		                "linkurl":"g3sub1",
-		               "label":"menu3===第一个页面"
-		            },
-		            {
-		               "routerurl":"/menu3/page2",
-		               "linkurl":"g3sub2",
-		               "label":"menu3===第二个页面"
-		            }
-		        ]
+		         "linkurl":"g3"
 		    },
 		    {
 		        "routerurl":"/menu4",
 		        "linkurl":"g4",
-		        "label":"menu4===页面"
+		        "label":"menu4"
 		    },
 		    {
 		        "routerurl":"/menu5",
 		        "linkurl":"g5",
-		        "label":"menu5===页面"
+		        "label":"menu5"
 		    }
         ]
     },
@@ -88,12 +84,12 @@
 		    {
 		        "routerurl":"/menu7",
 		        "linkurl":"g7",
-		        "label":"menu7===页面"
+		        "label":"menu7"
 		    },
 		    {
 		        "routerurl":"/menu8",
 		        "linkurl":"g8",
-		        "label":"menu8===页面"
+		        "label":"menu8"
 		    }
         ]
     },
@@ -110,12 +106,12 @@
 		    {
 		        "routerurl":"/menu10",
 		        "linkurl":"g10",
-		        "label":"menu10===页面"
+		        "label":"menu10"
 		    },
 		    {
 		        "routerurl":"/menu11",
 		        "linkurl":"g11",
-		        "label":"menu11===页面"
+		        "label":"menu11"
 		    }
         ]
     }
